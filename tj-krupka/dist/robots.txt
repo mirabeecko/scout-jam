@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tjkrupka.cz/sitemap.xml
+
+# Optimalizace pro vyhledávače
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Crawl-delay: 1
+
+# Blokování nepotřebných souborů
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /node_modules/
